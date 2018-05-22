@@ -1,0 +1,124 @@
+body{
+background-color: black;
+overflow:hidden;
+}
+
+svg circle {
+    fill: black;   
+}
+
+#resume, #stop, #startover { 
+  position: relative;
+  left: 100px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  margin: 0px;
+  margin-top: 10px;
+  padding: 4px;
+  width: 60px;
+  background: rgb(61,61,61);
+  border: none;
+  box-shadow: 1px 2px 6px 0.2px rgba(0,0,0,0.6), inset -12px -8px 12px 5px #212121;
+} 
+ 
+  #timewatcher {
+   position: absolute;
+   background-color: black;
+   top: calc(224px + 90.5px);
+   left: calc(200px - 90.5px);
+   border-radius: 1000px;
+   width: 190px;
+   height: 190px; 
+ }
+
+
+ p {
+ display: inline;
+ color: #07D9FF;
+ background-color: transparent;
+ font-size: 35px;
+ text-align: center;
+ align-content: center;
+ position: relative;
+ left: 160px;
+ top: 220px;
+ z-index: 1;
+ }
+
+.text-default {
+position: relative;
+left: 20px;
+color: #07D9FF;
+font-size: 35px;
+margin-top: 10px;
+
+}
+
+h4{
+  font-size: 15px;
+  font-weight: 600;
+  color: #07D9FF;
+  position: relative;
+  left: 150px;
+  
+}
+
+
+#minus {
+  position: relative;
+  left: 150px;
+  background: #07D9FF;
+  color: #07D9FF;
+  border-radius: 50% 0% 0% 50%;
+  border: none;
+  margin:none;
+  font-size: 18px;
+  font-weight: 800;
+  width: 25px;
+  height: 25px;
+  padding: 0px;
+  text-decoration: none;
+  box-shadow: 1px 2px 5px 0.1px rgba(0,0,0,0.6), inset -12px -8px 12px 5px #212121;
+}
+
+
+#plus {
+  position: relative;
+  left: 150px;
+  background: #414141;
+  color: #07D9FF;
+  border-radius: 0% 50% 50% 0% ;
+  border: none;
+  margin:none;
+  font-size: 18px;
+  font-weight: 800;
+  width: 25px;
+  height: 25px;
+  padding: 0px;
+  text-decoration: none;
+  box-shadow: 1px 2px 5px 0.1px rgba(0,0,0,0.6), inset -12px -8px 12px 5px #212121;
+}
+
+#nbr {
+  position: relative;
+  left: 150px;
+  background: #414141;
+  color: #07D9FF;
+  border-radius: 40% 40% 40% 40% ;
+  border: none;
+  margin:none;
+  font-size: 18px;
+  font-weight: 800;
+  width: 25px;
+  height: 25px;
+  padding: 0px;
+  text-decoration: none;
+  box-shadow: 1px 2px 5px 0.1px rgba(0,0,0,0.6), inset -12px -8px 12px 5px #212121;
+}
+
+@media only screen and (max-device-width: 480px) {
+       container-fluid {
+          width: 400px;
+        }
